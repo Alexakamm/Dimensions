@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2cdmlq1eiy8a"]
+
+[ext_resource type="Script" path="res://Scripts/CharacterMovement.gd" id="1_a6wyc"]
+[ext_resource type="Texture2D" uid="uid://bpvjo7nt5ehlt" path="res://art/SpacelandMan.png" id="1_aior4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j0ddd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_aior4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bo7rv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xwkls"]
+size = Vector2(54, 96)
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_a6wyc")
+movement_speed = 300.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(8.24998, -8.24998)
+scale = Vector2(0.110532, 0.110532)
+sprite_frames = SubResource("SpriteFrames_j0ddd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+material = SubResource("ShaderMaterial_bo7rv")
+position = Vector2(5, -8)
+shape = SubResource("RectangleShape2D_xwkls")

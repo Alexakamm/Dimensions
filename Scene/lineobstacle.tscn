@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://rjd7og2hamer"]
+
+[ext_resource type="Script" path="res://Scripts/line_collision.gd" id="1_8f2vd"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_bagxf"]
+
+[node name="Node2D" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_bagxf")
+script = ExtResource("1_8f2vd")
+
+[node name="CollisionShape2D" type="Polygon2D" parent="."]
+position = Vector2(51.6229, 0.505102)
+scale = Vector2(1.07627, -1.15306)
+color = Color(0.75294, 0.677265, 0.895808, 1)
+polygon = PackedVector2Array(-47.5, -6.5, -26.8971, -6.5, 11.5, -6.5, 11.5, 0.5, -47.5, 0.5)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-1.19209e-07, 16)
+scale = Vector2(0.956766, -1.54337)
+polygon = PackedVector2Array(1.24596e-07, 10.3669, 66.892, 10.3669, 66.892, 5.18347, 25.0845, 5.18347, 1.24596e-07, 5.18347)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

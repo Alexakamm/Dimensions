@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://iuhqfju1ph02"]
+
+[ext_resource type="Script" path="res://Scripts/CharacterMovement.gd" id="1_htm3b"]
+[ext_resource type="Texture2D" uid="uid://cxcqmwreceg48" path="res://art/LinelandMan.png" id="1_ljlfw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_77o8m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ljlfw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_htm3b")
+movement_speed = 300.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-8, -8)
+scale = Vector2(0.295, 0.295)
+sprite_frames = SubResource("SpriteFrames_77o8m")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(4, -4)
+polygon = PackedVector2Array(-36, -4, -36, 4, 36, 4, 36, -148, 108, -164, 36, -188)

@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0pc5cj4sruab"]
+
+[ext_resource type="Texture2D" uid="uid://c6ag038p6f60y" path="res://art/FlatlandMan.png" id="1_28tce"]
+[ext_resource type="Script" path="res://Scripts/CharacterMovement.gd" id="1_gejuu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pd17j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_28tce")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lohe0"]
+size = Vector2(160, 152)
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_gejuu")
+movement_speed = 300.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.398148, 0.398148)
+sprite_frames = SubResource("SpriteFrames_pd17j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, -20)
+shape = SubResource("RectangleShape2D_lohe0")
