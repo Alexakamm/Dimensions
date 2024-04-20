@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var player = null
-# Speed at which the enemy moves
+# Enemy speed
 var speed = 100
 var is_alive = true
 	

@@ -11,3 +11,5 @@ res://Scene/flatland-blocks.tscn
 res://Scene/ladder.tscn
 res://Scene/lineland.tscn
 res://Scene/lineobstacle.tscn
+res://Scripts/enemy.gd
+res://Scripts/line_collision.gd

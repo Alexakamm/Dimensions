@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-# The direction and speed of sliding
+# Direction + speed of sliding
 var slide_direction = Vector2(1, 0)
 var slide_speed = 100.0
 var sliding = false
@@ -9,8 +9,8 @@ var sliding = false
 var slide_timer = Timer.new()
 
 func _ready():
-	# Setup the timer
-	slide_timer.wait_time = 3.0 # Adjust the duration according to your needs
+	# Setup timer
+	slide_timer.wait_time = 3.0 
 	slide_timer.one_shot = true
 	slide_timer.timeout.connect(_on_slide_timer_timeout)
 	add_child(slide_timer)
