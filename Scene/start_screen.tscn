@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://b1bmxoj1eush6" path="res://Scene/spaceland.tscn" id="1_77imn"]
 [ext_resource type="Texture2D" uid="uid://bw2alrlc0i4is" path="res://art/fantasy_tiles.png" id="1_huy2f"]
-[ext_resource type="Script" path="res://Scene/begin_game.gd" id="2_sa52c"]
-[ext_resource type="Script" path="res://Scene/hide_start_screen.gd" id="3_dsg7o"]
+[ext_resource type="Script" path="res://Scripts/begin_game.gd" id="2_sa52c"]
+[ext_resource type="Script" path="res://Scripts/hide_start_screen.gd" id="3_dsg7o"]
 [ext_resource type="Texture2D" uid="uid://i1sj4isku2k" path="res://art/Solid_white.png" id="4_43b28"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_clmw3"]
