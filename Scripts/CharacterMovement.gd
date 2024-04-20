@@ -67,7 +67,7 @@ func _apply_gravity():
 		velocity += gravity # character accelerates downward the longer that they are airborn
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _physics_process(delta): 
+func _physics_process(_delta): 
 	_get_input()
 	_limit_speed()
 	_apply_friction()

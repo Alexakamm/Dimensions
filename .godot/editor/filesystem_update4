@@ -1,1 +1,6 @@
+res://Scene/flatland.tscn
+res://Scene/spaceland.tscn
+res://Scene/Player.tscn
+res://Scene/enemy.tscn
 res://Scene/start_screen.tscn
+res://Scene/pointland.tscn

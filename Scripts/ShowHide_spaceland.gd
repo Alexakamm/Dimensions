@@ -12,11 +12,11 @@ func _hide():
 	self.visible = false
 
 
-func _on_door_body_entered(body):
+func _on_door_body_entered(_body):
 	if Global.dog_lost: 
 		_show()
 
 
-func _on_door_body_exited(body):
+func _on_door_body_exited(_body):
 	_hide()
 

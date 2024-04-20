@@ -14,7 +14,7 @@ func _ready():
 	slide_timer.one_shot = true
 	slide_timer.timeout.connect(_on_slide_timer_timeout)
 	add_child(slide_timer)
-	self.body_entered.connect(_on_body_entered)
+
 
 func _integrate_forces(state):
 	if sliding:

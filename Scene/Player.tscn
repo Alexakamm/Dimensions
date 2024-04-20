@@ -25,6 +25,8 @@ animations = [{
 size = Vector2(54, 96)
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 3
+collision_mask = 3
 motion_mode = 1
 script = ExtResource("1_a6wyc")
 movement_speed = 300.0
