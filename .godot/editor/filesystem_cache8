@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713627355
+::res://::1713741211
 Global.gd::GDScript::-1::1712174879::0::1::::<>Node<>::
 README.md::TextFile::-1::1713626521::0::1::::<><>::
 ::res://art/::1713625985
@@ -33,19 +33,19 @@ country-platform-tiles-example.png::CompressedTexture2D::2516197836414927062::17
 country-platform-tileset.png::CompressedTexture2D::7640862512711848503::1712174879::1712174879::1::::<><>::
 ::res://art/NightBorne/::1713553434
 NightBorne.png::CompressedTexture2D::257452133758728389::1713553433::1713553434::1::::<><>::
-::res://Scene/::1713627333
-1DPlayer.tscn::PackedScene::603252173301340385::1713627042::0::1::::<><>::res://Scripts/CharacterMovement.gd<>uid://cxcqmwreceg48::::res://art/LinelandMan.png
+::res://Scene/::1713739150
+1DPlayer.tscn::PackedScene::603252173301340385::1713739149::0::1::::<><>::res://Scripts/CharacterMovement.gd<>uid://cxcqmwreceg48::::res://art/LinelandMan.png
 2DPlayer.tscn::PackedScene::8945123936436001881::1713626266::0::1::::<><>::uid://c6ag038p6f60y::::res://art/FlatlandMan.png<>res://Scripts/CharacterMovement.gd
 enemy.tscn::PackedScene::5411182069351677354::1713626156::0::1::::<><>::uid://dwyg1cvk7mgj::::res://art/NightBorne/NightBorne.png<>res://Scripts/enemy.gd
 flatland-blocks.tscn::PackedScene::6223817133844574767::1713626266::0::1::::<><>::
-flatland.tscn::PackedScene::2576900932010913375::1713627039::0::1::::<><>::uid://d0pc5cj4sruab::::res://Scene/2DPlayer.tscn<>uid://dnrgh85enagqr::::res://art/FlatlandSky.svg<>uid://ds5xsfywixma2::::res://art/Platform tilesets 32x32.png<>uid://bohar1lyjxooy::::res://art/e875f8d8-0e5e-4d4f-9ed9-13c7fa554599.png<>uid://cuw4mg4s0qrgp::::res://Scene/flatland-blocks.tscn<>uid://k3g210eyr3w5::::res://art/fad65f3f-3797-4cb3-b147-27ee7453c738.png<>uid://b67ouepaalkof::::res://art/omegateam.png<>uid://s7fuwuiy8e18::::res://art/8c49b122-ccc5-4bb6-89f6-e87972cd0dd8.png<>res://Scripts/CollisionControl.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/ShowHide_spaceland.gd
-ladder.tscn::PackedScene::5501969845959561086::1713627041::0::1::::<><>::res://Scripts/ladder.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png
+flatland.tscn::PackedScene::2576900932010913375::1713739148::0::1::::<><>::uid://d0pc5cj4sruab::::res://Scene/2DPlayer.tscn<>uid://dnrgh85enagqr::::res://art/FlatlandSky.svg<>uid://ds5xsfywixma2::::res://art/Platform tilesets 32x32.png<>uid://bohar1lyjxooy::::res://art/e875f8d8-0e5e-4d4f-9ed9-13c7fa554599.png<>uid://cuw4mg4s0qrgp::::res://Scene/flatland-blocks.tscn<>uid://k3g210eyr3w5::::res://art/fad65f3f-3797-4cb3-b147-27ee7453c738.png<>uid://b67ouepaalkof::::res://art/omegateam.png<>uid://s7fuwuiy8e18::::res://art/8c49b122-ccc5-4bb6-89f6-e87972cd0dd8.png<>res://Scripts/CollisionControl.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/ShowHide_spaceland.gd
+ladder.tscn::PackedScene::5501969845959561086::1713739149::0::1::::<><>::res://Scripts/ladder.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png
 lineland.tscn::PackedScene::6454771533433483912::1713626267::0::1::::<><>::uid://iuhqfju1ph02::::res://Scene/1DPlayer.tscn<>uid://o0hgt6ap2w83::::res://art/lightning.png<>uid://i1sj4isku2k::::res://art/Solid_white.png<>uid://b67ouepaalkof::::res://art/omegateam.png<>uid://rjd7og2hamer::::res://Scene/lineobstacle.tscn<>uid://bx6gwu4gxjbt1::::res://art/small-black-dot-png-2.png<>res://Scripts/ShowHide_spaceland.gd
 lineobstacle.tscn::PackedScene::1212029783848197913::1713626268::0::1::::<><>::res://Scripts/line_collision.gd
-Player.tscn::PackedScene::6672273085287086082::1713627040::0::1::::<><>::res://Scripts/CharacterMovement.gd<>uid://bpvjo7nt5ehlt::::res://art/SpacelandMan.png
-pointland.tscn::PackedScene::4572796297804370753::1713627042::0::1::::<><>::uid://i1sj4isku2k::::res://art/Solid_white.png<>res://Scripts/end.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/point-movement.gd<>res://Scripts/hide_button.gd<>uid://bx6gwu4gxjbt1::::res://art/small-black-dot-png-2.png
-spaceland.tscn::PackedScene::4214165423626628277::1713626264::0::1::::<><>::uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>uid://c2cdmlq1eiy8a::::res://Scene/Player.tscn<>uid://bb34n7254j5cc::::res://art/country-platform-files/layers/country-platform-tiles-example.png<>res://Scripts/ladder.gd<>uid://b38l3c5rw14w5::::res://art/Layer 1_sprite_2.png<>uid://bt7qgk8w4lah7::::res://art/SpacelandSky.png<>res://Scripts/bye_dog.gd<>uid://cice88w5v58wj::::res://art/hat.png<>uid://chksft5w6ph3j::::res://art/vizsla.png<>res://Scripts/ShowHide_spaceland.gd<>res://Scripts/bye_hat.gd<>uid://b1lm24mkt562m::::res://art/dead_field_by_simfonic_d3135gi-fullview.jpg<>uid://cjdhm4c12pwkw::::res://Scene/enemy.tscn
-start_screen.tscn::PackedScene::4327905429073407723::1713627105::0::1::::<><>::uid://b1bmxoj1eush6::::res://Scene/spaceland.tscn<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/begin_game.gd<>res://Scripts/hide_start_screen.gd<>uid://i1sj4isku2k::::res://art/Solid_white.png
+Player.tscn::PackedScene::6672273085287086082::1713739148::0::1::::<><>::res://Scripts/CharacterMovement.gd<>uid://bpvjo7nt5ehlt::::res://art/SpacelandMan.png
+pointland.tscn::PackedScene::4572796297804370753::1713739149::0::1::::<><>::uid://i1sj4isku2k::::res://art/Solid_white.png<>res://Scripts/end.gd<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/point-movement.gd<>res://Scripts/hide_button.gd<>uid://bx6gwu4gxjbt1::::res://art/small-black-dot-png-2.png
+spaceland.tscn::PackedScene::4214165423626628277::1713739150::0::1::::<><>::uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>uid://c2cdmlq1eiy8a::::res://Scene/Player.tscn<>uid://bb34n7254j5cc::::res://art/country-platform-files/layers/country-platform-tiles-example.png<>res://Scripts/ladder.gd<>uid://b38l3c5rw14w5::::res://art/Layer 1_sprite_2.png<>uid://bt7qgk8w4lah7::::res://art/SpacelandSky.png<>res://Scripts/bye_dog.gd<>uid://cice88w5v58wj::::res://art/hat.png<>uid://chksft5w6ph3j::::res://art/vizsla.png<>res://Scripts/ShowHide_spaceland.gd<>res://Scripts/bye_hat.gd<>uid://b1lm24mkt562m::::res://art/dead_field_by_simfonic_d3135gi-fullview.jpg<>uid://cjdhm4c12pwkw::::res://Scene/enemy.tscn
+start_screen.tscn::PackedScene::4327905429073407723::1713739149::0::1::::<><>::uid://b1bmxoj1eush6::::res://Scene/spaceland.tscn<>uid://bw2alrlc0i4is::::res://art/fantasy_tiles.png<>res://Scripts/begin_game.gd<>res://Scripts/hide_start_screen.gd<>uid://i1sj4isku2k::::res://art/Solid_white.png
 ::res://Scripts/::1713627040
 begin_game.gd::GDScript::-1::1712175234::0::1::::<>Node2D<>::
 bye_dog.gd::GDScript::-1::1712175680::0::1::::<>AnimatedSprite2D<>::

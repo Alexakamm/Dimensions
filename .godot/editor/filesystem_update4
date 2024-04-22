@@ -1,6 +1,1 @@
-res://Scene/flatland.tscn
-res://Scene/Player.tscn
-res://Scene/start_screen.tscn
-res://Scene/ladder.tscn
-res://Scene/pointland.tscn
-res://Scene/1DPlayer.tscn
+res://Scene/lineland.tscn
